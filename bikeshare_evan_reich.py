@@ -8,13 +8,6 @@ import numpy as np
 # Set option to display 100 columns to make sure that entire dataset is displayed when showing raw data
 pd.set_option('display.max_columns', 100)
 
-# Did not use this dictionary. Felt that creating something to look at possible data files would be more
-# flexible in a real world senario (i.e. Wouldn't require change to code to make work for aditional cities added at a later date)
-# This will require that new cities have "_" instead of spaces in file name
-#CITY_DATA = { 'chicago': 'chicago.csv',
-#              'new york city': 'new_york_city.csv',
-#              'washington': 'washington.csv' }
-
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
